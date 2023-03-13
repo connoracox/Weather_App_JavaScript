@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/NMarches2.jpeg");
+    background-color: #cccccc;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.search{
+    width:500px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+}
+
+#results {
+    width:500px;
+    margin: 10px;
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+}
+
+.btn{
+    border: 1px solid transparent;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 100;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color:rgb(23, 159, 244);
+    font-size: 22px;
+}
+
+.currentTemp {
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+    color: white;
+}
+
+#cityName {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 20px;
+    padding-left: 20px;
+    border: transparent;
+    font-size: 20px;
+}
+
+.conditions {
+    font-size: 30px;
+    color: white;
+}
+
+
+
